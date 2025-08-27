@@ -87,51 +87,43 @@ scanf("%d", &opcaocavalo);
 switch (opcaocavalo)
 {
 case 1:
-    for ( i = 1; i <=2; i++){
-    int j = 1;
-        while (j<=1){
-       printf("cima\n");
-    j++;
-    }
-    
+    for ( i = 0; i < 2; i++){
+    printf("Cima\n");
 }
-printf("Direita\n");
+for ( int j = 0; j < 1; j++)
+{
+    printf("direita\n");
+}
     break;
 
 case 2:
-    for ( i = 1; i <=2; i++){
-    int j = 1;
-        while (j<=1){
-       printf("cima\n");
-    j++;
-    }
-    
+     for ( i = 0; i < 2; i++){
+    printf("Cima\n");
 }
-printf("esquerda\n");
+for ( int j = 0; j < 1; j++)
+{
+    printf("Esquerda\n");
+}
     break;
 
 case 3:
-    for ( i = 1; i <=2; i++){
-    int j = 1;
-        while (j<=1){
-       printf("baixo\n");
-    j++;
-    }
-    
+     for ( i = 0; i < 2; i++){
+    printf("Baixo\n");
 }
-printf("Direita\n");
+for ( int j = 0; j < 1; j++)
+{
+    printf("direita\n");
+}
     break;
 
 case 4:
-    for ( i = 1; i <=2; i++){
-    int j = 1;
-        while (j<=1){
-       printf("baixo\n");
-    j++;
-    }
-    
+     for ( i = 0; i < 2; i++){
+    printf("Baixo\n");
 }
-printf("esquerda\n");
+for ( int j = 0; j < 1; j++)
+{
+    printf("Esquerda\n");
+}
     break;
 
 
